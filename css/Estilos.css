@@ -1,0 +1,118 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+body{
+
+background-attachment: fixed;
+width: 1348px; height: 55px;
+background-image: url("https://gmedia.playstation.com/is/image/SIEPDC/a-starters-guide-to-dreams-editorial-section-background-desktop-tablet-01-ps4-en-21jan20?$native--t$");
+
+background-size: 100% 100%;
+color:#fff;
+
+}
+
+#contenedor{
+width: 960px;
+margin:auto;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 15px;
+overflow: hidden;
+}
+
+header{
+height: 160px;
+background-color: #221C5A;
+
+}
+
+header h1{
+font-size: 90px;
+text-align: center;
+line-height: 140px;
+}
+
+nav{
+background-color: #221C5A;
+opacity: 0.80;
+height: 60px;
+}
+
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction: row;
+}
+
+li { flex-grow: 1; }
+
+a {
+    display:block;
+    padding:1em;
+    background-color:LightGray ;
+    text-align:center;
+    margin-right:0.2em;
+    text-decoration:none;
+    color:#000000;
+}
+
+a:hover {background-color: #8177AD; }
+
+nav h2{
+font-size: 40px;
+text-align: center;
+line-height: 60px;
+}
+
+#contenido{
+width: 700px;
+height: 460px;
+float: left;
+background-color: #11153E;
+opacity: 0.93;
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+
+}
+
+#contenido h2{
+font-size: 50px;
+text-align: left;
+line-height: 40px;
+
+}
+
+aside{
+width: 250px;
+height: 460px;
+background-color: #1F7800;
+opacity: 0.93;
+margin-top: 10px;
+float: right;
+}
+
+aside h2{
+font-size: 30px;
+text-align: center;
+line-height: 95px;
+
+}
+
+footer{
+background-color: #000;
+clear: both;
+
+}
+
+footer h2{
+font-size: 40px;
+text-align: center;
+padding: 20px;
+font-style: italic;
+}
